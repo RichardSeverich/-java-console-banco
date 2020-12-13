@@ -20,7 +20,7 @@ This project using Maven.
 git clone https://github.com/10micky10/java-console-banco.git
 ```
 
-Install Maven: Enter to project and execute the followings commands:
+Enter to project and execute the followings commands:
 
 2. Compile:
 
