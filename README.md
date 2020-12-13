@@ -1,23 +1,68 @@
 # java-console-banco
 
 This project is in console mode.
-This project is using Maven.
+This project using Maven.
 
-## Prerequisites 🚀
+## Prerequisites 🔨
 
-1. Install Windows 10
-2. Install Java 1.8.0_201
-3. Install Maven
+1. Install Windows 10 or linux.
 
 ## Installation 🔧
 
-1. Clone Repository: `https://github.com/RichardSeverich/java-console-sales.git`
-2. Compile: `mvn compile`
-3. generate jar: `mvn package`
-3. Init program: `java -jar target/java-console-banco-1.0-SNAPSHOT.jar`
-4. Enter with: userName=`micky` password=`holaloko`
+1. Install windows or linux.
+2. Install java 8 (1.8.0_201)
+3. Install Maven
+
+## Deploy 🚀
+
+1. Clone project.
+```
+git clone https://github.com/10micky10/java-console-banco.git
+```
+
+Install Maven: Enter to project and execute the followings commands:
+
+2. Compile:
+
+```
+mvn compile
+```
+
+3. Generate jar:
+
+```
+mvn package
+```
+
+4. Init program:
+
+```
+java -jar target/java-console-banco-1.0-SNAPSHOT.jar
+```
+
+5. Login:
+
+```
+Enter with: userName = micky password = holaloko
+```
+
+### checkstyle
+
+Execute:
+
+```
+mvn checkstyle:check
+```
+
+### Command to Generate a Maven Project:
+
+```
+mvn archetype:generate -DgroupId="nombre de carpeta".com."nombre de carpeta" -DartifactId="nombre de la carpeta principal" -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+```
 
 ## Documentation
+
+## Diagrams
 
 ### Entity Class Diagram
 
@@ -29,6 +74,18 @@ This project is using Maven.
 
 <p align="center">
   <img src="documentation/use-case-diagram.jpg">
+</p>
+
+### Sequence Diagram
+
+<p align="center">
+  <img src="documentation/sequence-diagram.jpg">
+</p>
+
+### Status Diagram
+
+<p align="center">
+  <img src="documentation/status-diagram.jpg">
 </p>
 
 ## UI
@@ -85,4 +142,10 @@ This project is using Maven.
 
 <p align="center">
   <img src="documentation/assign-remove-account-menu.jpg">
+</p>
+
+### GoodBye
+
+<p align="center">
+  <img src="documentation/bye.jpg">
 </p>
